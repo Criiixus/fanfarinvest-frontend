@@ -1,12 +1,39 @@
-# React + Vite
+Descrição
+Interface web desenvolvida em React para consumir a API do FanfarInvest. O frontend exibe os investimentos cadastrados, permite criar novos, editar e excluir, tudo de forma dinâmica com uma interface leve e direta.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades
 
-Currently, two official plugins are available:
+🧾 Visualizar a lista de investimentos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Cadastrar novos investimentos
 
-## Expanding the ESLint configuration
+✏️ Editar investimentos existentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❌ Deletar investimentos com confirmação
+
+Tecnologias
+
+React
+
+Axios
+
+TailwindCSS
+
+Vite
+
+Como rodar
+
+bash
+Copiar
+Editar
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/fanfarinvest-frontend.git
+cd fanfarinvest-frontend
+
+# 2. Instale as dependências
+npm install
+
+# 3. Execute o projeto
+npm run dev
+A interface estará disponível em: http://localhost:5173
+
